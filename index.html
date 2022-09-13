@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container {
+        width: 30%;
+        height: 30%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .newName {
+        width: 100%;
+        height: 10%;
+        font-size: 20px;
+    }
+
+    .newName:focus {
+        outline: none;
+    }
+
+    .allNames {
+        margin-top: 10px;
+        width: 100%;
+        height: 70%;
+        background-color: rgb(173, 221, 205);
+        font-size: 22px;
+    }
+
+    .btn {
+        width: 10%;
+        height: 10%;
+        margin-top: 10px;
+        color: white;
+        align-self: flex-end;
+        background-color: green;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <input type="text" name="" class="newName">
+        <div class="allNames"></div>
+        <input type="button" class="btn" value="Add">
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
